@@ -26,3 +26,23 @@ The accumulated fees can be collected by governance.
 The legacy MkrSky converter supported bi-directional conversions.
 Upon initialization of the new converter, only the `mkrToSky` path will be supported.
 It is expected that once the new converter fee becomes non-zero, the `mkrToSky` path in the old converter will also be disabled.
+
+## Audits
+
+Audit reports are hosted on the auditors' public portfolio pages:
+
+| Auditor | Report | Date |
+| --- | --- | --- |
+| ChainSecurity | [Sky smart contracts](https://www.chainsecurity.com/security-audit/makerdao-sky-smart-contracts/) | 2025-06-06 |
+| Cantina | [Sky Protocol Token Conversion Audit](https://cantina.xyz/portfolio/5afcb016-c1e8-4e42-8245-87857f8e1e1a) | 2025-04-17 |
+| ChainSecurity | [MakerDAO Sky Deployment Scripts](https://www.chainsecurity.com/security-audit/makerdao-sky-deployment-scripts/) | 2024-09-30 |
+| Cantina | [sky](https://cantina.xyz/portfolio/713d3c41-6380-4cac-93d8-bca7b4c8a0eb) | 2024-09-17 |
+| Cantina | [ngt](https://cantina.xyz/portfolio/1ea14693-a6ba-4793-9bd0-41d7dd3981ce) | 2023-09-19 |
+
+ChainSecurity reports are cumulative: each portfolio page hosts the latest version of the report, which covers all previously reviewed versions.
+
+### Other reports
+
+The following reports are not available on an auditor portfolio page and are kept in this repository:
+
+- [Sherlock (20240917-Sherlock_MakerDAO_Endgame_Audit_Report.pdf)](./audit/20240917-Sherlock_MakerDAO_Endgame_Audit_Report.pdf)
